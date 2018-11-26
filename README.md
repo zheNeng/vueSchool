@@ -15,4 +15,30 @@ https://github.com/logictuLuoqi/vueSchool
 
 01 helloworld 
 
+vue 的生命周期
+
+mixins && extends
+
+组件概念，何时需要组件，如何定义
+
+动态组件
+
+双向数据绑定
+
+filter 的概念及使用，原理
+
+JSX && render
+
+vue 响应式原理
+
+render 函数干了什么
+
+nextTick
+
+use TypeScript
+
+vue 项目优化点
+
+vue 服务端渲染 nuxt
+
 ## 代码
