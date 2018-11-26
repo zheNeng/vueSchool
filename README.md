@@ -15,30 +15,130 @@ https://github.com/logictuLuoqi/vueSchool
 
 01 helloworld 
 
-vue 的生命周期
+### 全局 API
 
-mixins && extends
+- [ ] extend
+- [ ] nextTick
+- [ ] set && delete
+- [ ] directive
+- [ ] filter
+- [ ] component
+- [ ] use
+- [ ] mixin
+- [ ] compile
 
-组件概念，何时需要组件，如何定义
+### 选项/数据
 
-动态组件
+- [ ] data
+- [ ] props
+- [ ] computed
+- [ ] methods
+- [ ] watch
 
-双向数据绑定
+### 选项/DOM
 
-filter 的概念及使用，原理
+- [ ] el
+- [ ] template
+- [ ] render
 
-JSX && render
+### 选项 / 生命周期钩子
 
-vue 响应式原理
+- [ ] 生命周期钩子
 
-render 函数干了什么
+### 选项 / 资源
 
-nextTick
+- [ ] directives
+- [ ] filters
+- [ ] components
 
-use TypeScript
+### 选项 / 组合
 
-vue 项目优化点
+- [ ] parent
+- [ ] mixins
+- [ ] extends
+- [ ] provide / inject
 
-vue 服务端渲染 nuxt
+### 选项 / 其它
+
+- [ ] name
+- [ ] functional
+- [ ] model
+- [ ] model
+
+### 实例属性
+
+- [ ] $data
+- [ ] $props
+- [ ] $el
+- [ ] $options
+- [ ] $parent
+- [ ] $root
+- [ ] $children
+- [ ] $slots
+- [ ] $refs
+- [ ] $isServer
+- [ ] $attrs
+- [ ] $listeners
+
+### 实例方法 / 数据
+
+- [ ] $watch
+- [ ] $set
+- [ ] $delete
+
+### 实例方法 / 事件
+
+- [ ] $on
+- [ ] $once
+- [ ] $off
+- [ ] $emit
+
+### 实例方法 / 生命周期
+
+- [ ] $mount
+- [ ] $forceUpdate
+- [ ] $nextTick
+- [ ] $destroy
+
+### 指令
+
+- [ ] v-text
+- [ ] v-html
+- [ ] v-show
+- [ ] v-if && v-else
+- [ ] v-for
+- [ ] v-on
+- [ ] v-bind
+- [ ] v-model
+- [ ] v-once
+
+### 特殊属性
+
+- [ ] key
+- [ ] ref
+- [ ] slot
+- [ ] slot-scope
+- [ ] scope
+- [ ] is
+
+### 内置的组件
+
+- [ ] component 动态组件
+- [ ] transition
+- [ ] transition-group
+- [ ] keep-alive
+- [ ] slot
+
+### 服务端渲染
+
+- [ ] 服务端渲染 nuxt
+
+### 概念
+
+- [ ] 双向数据绑定
+- [ ] JSX && render
+- [ ] vue 响应式原理
+- [ ] use TypeScript
+- [ ] vue 项目优化点
 
 ## 代码
