@@ -1,0 +1,27 @@
+{
+  "name": "vueSchool",
+  "version": "1.0.0",
+  "description": "https://github.com/logictuLuoqi/vueSchool",
+  "main": "webpack.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logictuLuoqi/vueSchool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/logictuLuoqi/vueSchool/issues"
+  },
+  "homepage": "https://github.com/logictuLuoqi/vueSchool#readme",
+  "dependencies": {
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
