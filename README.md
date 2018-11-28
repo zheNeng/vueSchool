@@ -54,7 +54,7 @@ https://github.com/logictuLuoqi/vueSchool
 ### 选项 / 组合
 
 - [ ] parent
-- [ ] mixins
+- [x] [mixins](./docs/vue-mixins.md)
 - [ ] extends
 - [ ] provide / inject
 
