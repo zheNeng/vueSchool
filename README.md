@@ -13,7 +13,8 @@ https://github.com/logictuLuoqi/vueSchool
 
 ## 目录
 
-01 helloworld 
+01 helloworld  
+https://github.com/logictuLuoqi/vueSchool/blob/master/code/01-helloworld/HelloWorld.md
 
 ### 全局 API
 
