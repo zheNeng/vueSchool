@@ -1,8 +1,13 @@
-const HelloWorld = Vue.component('hello-world', {
+const HelloWorld = Vue.component('hello-world', Vue.extend({
+    data(){
+        return {
+            hello: "helloworld"
+        }
+    },
     render(h){
-        return h('div', {}, 'helloworld')
+        return h('div', {}, this.hello)
     }
-})
+}))
 
 new Vue({
     render: h => h(HelloWorld) 

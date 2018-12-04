@@ -10,11 +10,16 @@ webpack的作用 就是帮助我们的代码装换成浏览器认识的样子
 下面我用原始的方法来写一个hello world
 
 ```javascript
-const HelloWorld = Vue.component('hello-world', {
+const HelloWorld = Vue.component('hello-world', Vue.extend({
+    data(){
+        return {
+            hello: "helloworld"
+        }
+    },
     render(h){
-        return h('div', {}, 'helloworld')
+        return h('div', {}, this.hello)
     }
-})
+}))
 
 new Vue({
     render: h => h(HelloWorld)
@@ -39,6 +44,31 @@ new Vue({
 编译过程 我放在vue-loader的时候详细讲解  
 
 template=createElement
+
+### extend
+
+需要一个obj {} 作为参数  
+使用基础 Vue 构造器，创建一个“子类”。参数是一个包含组件选项的对象。  
+
+### Vue.component
+
+Vue.component(给定一个组件名称, extend)
+
+### render
+
+需要一个 VNnode参数  
+Vue 选项中的 render 函数若存在，则 Vue 构造函数不会从 template 选项或通过 el 选项指定的挂载元素中提取出的 HTML 模板编译渲染函数。  
+性能 需要这样  
+
+去看看 createElement源码解析
+
+### $mount
+
+如果 Vue 实例在实例化时没有收到 el 选项，则它处于“未挂载”状态，没有关联的 DOM 元素。可以使用 vm.$mount() 手动地挂载一个未挂载的实例。  
+
+### el
+
+el的话是直接挂在和 $mount有先后的区别 源码中后续再讲
 
 ## createElement源码解析
 
